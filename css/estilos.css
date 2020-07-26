@@ -1,0 +1,449 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Colaborate Light', sans-serif;
+background-color: #BE5A86;
+   }
+textarea,input{
+    width: 100%;
+}
+header  {
+    background-color: #BE5A86;
+    display: block;
+    width: 100%;
+ 
+}
+
+#banner-home {
+    margin-top: 20px;
+    width: 1080px;
+    height: 667px;
+   
+}
+article.banner-home {
+    margin-left: 322px;
+     margin-top: 24px;
+    background: #BE5A86;
+    }
+
+
+#quienes-somos img {
+width: 100%; 
+float: left;
+clear: left; 
+padding: 28px;
+margin-left: -7px;
+}
+
+#foteer-cont-der {
+    width: 40%;
+    position: relative;
+    float: right;
+    margin-top: 120px;
+    
+}
+
+#foteer-cont-der p {
+        float: right;
+    width: 94%;
+    font-size: 20px;
+    color: white ;
+    
+}
+
+#footer-cont-izq h2 {
+margin-left: 80px; 
+color: #ffffff; 
+}
+
+#footer-cont-izq label {
+     color: #ffffff;
+}
+
+#quienes-somos div {
+    padding: 20px;
+}
+
+#quienes-somos p {
+     margin-right: 28px;
+    margin-left: 32px;
+}
+#quienes-somos h1 {
+    color: white; 
+    clear: right;
+}
+
+.menu-mobile {
+    display: none ;
+}
+
+
+/* MENU */
+.menu-elemento {
+
+    text-decoration:none;
+
+}
+
+.menu-elemento:hover {
+
+    color: #b42371 ;
+    height: 300px;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav ul {
+    float: right;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    padding: 20px;
+    color: white;
+       
+}
+
+
+
+section{
+    background-color: #8B5E9B;
+    display: block;
+    width: 100%;
+
+}
+
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+#form {
+    margin-left: 80px;
+}
+
+
+#quienes-somos {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #8B5E9B;
+}
+
+#quienes-somos  {
+    color: #ffffff;
+}
+#servicios div img {
+    width: 100%;
+}
+
+#servicios {
+padding-top: 150px;
+padding-bottom: 150px;
+width: 70%;
+margin-bottom: 200px;
+margin: 0px auto;
+text-align: center;
+vertical-align: top;
+padding-left: 10px;
+background-color: #7C4988;
+border-radius: 2%;
+}
+#servicios p {
+    text-align: left;
+}
+#servicios h1{
+    color: #ffffff;
+}
+
+#dg {
+    margin: 15px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+#pk {
+    margin: 15px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+#ftg {
+    margin: 15px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+#ed {
+    margin: 15px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#volver {
+    text-decoration: none;
+    color:#00a7e1 ;
+}
+
+#servicios p {
+    color: #FFFFFF;
+}
+
+#servicios a {
+    color: #b42371;
+}
+div.hola img{
+ float: right;
+ width: 20%;
+}
+
+div.hola {
+    border-radius: 8px;
+    width: 98%;
+    background-color: #8B5E9B;
+    padding: 1%;
+}
+div.hola p {
+ color: #FFFFFF;
+}
+div.hola h1 {
+ color: #FFFFFF;
+}
+/*RESPONSIVE*/
+/* MONITOR*/
+@media only screen and (max-width: 980px) and (min-width: 821px) {  
+    #footer-cont-der {
+    float: right;
+    width: 60%;
+    margin-top: 25px;
+        
+}
+    
+ #dg {
+    margin: 15px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+#pk {
+    margin: 15px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+#ftg {
+    margin: 15px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+#ed {
+    margin: 15px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+    
+
+}  
+/* TABLET */
+@media only screen and (max-width: 750px) and (min-width: 501px) {  
+ #dg {
+    margin: 15px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+#pk {
+    margin: 15px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+#ftg {
+    margin: 15px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+#ed {
+    margin: 15px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+      
+     #footer-cont-izq {
+    position:relative;}
+    
+article.banner-home {
+    margin-left: 20px;
+    margin-top: 24px;
+        
+    }
+
+#redes {
+margin-top: 100px;
+}
+    #quienes-somos img {
+width: 350px; 
+float: left;
+clear: left; 
+padding: 10px;
+}
+ 
+  
+    #foteer-cont-der{
+    width: 700px;
+    margin-left: 89px;
+    float: left;
+    margin-bottom: 30px;
+     }
+}  
+/*CELULAR*/
+@media only screen and (max-width: 500px) and (min-width: 341px) {  
+  #dg {
+    margin: 15px;
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+#pk {
+    margin: 15px;
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+#ftg {
+    margin: 15px;
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+#ed {
+    margin: 15px;
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+        #quienes-somos img {
+        width: 400px; 
+        float: left;
+        clear: left; 
+        padding: 43px;
+}
+         #foteer-cont-der{
+        width: 213px;
+        margin-left: 89px;
+        float: left;
+        margin-bottom: 30px;
+ }
+
+        #footer-cont-izq {
+        width: 400px;
+        position:relative;
+        margin-left: -26px;
+    } 
+
+#redes {
+margin-top: 200px;
+}
+
+   .menu-mobile {
+        display: inline-block;
+        width: 30px;
+        float: right;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .menu-mobile span {
+        background-color: #FFF;
+        height: 5px;
+        margin: 5px 0;
+        width: 100%;
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+
+  #footer {
+height:900px;
+  }
+    
+
+}
+
+/* FOOTER */
+
+#redes img{
+    margin: 5px;
+
+}
+#footer {
+
+        display: block;
+        height: 400px;
+        margin: 0px;
+        clear: both;
+
+}
+
+.elemento-form {
+    color: #ffffff;
+}
+
+#footer-cont-izq {
+    float: left;
+    margin-top: 120px;
+
+}
+
+#footer-cont-der {
+    float: right;
+    width: 30%;
+    margin-top: 25px;
+}
+
+#footer-cont-der p {
+    font-size: 20px;
+    color: white ;
+}
+
+
+
+#redes {
+    height: 100px;
+    width: 100%; 
+    text-align: center ;
+    margin-top: 100px;
+    clear: both;
+    background-color: #ffffff;
+}
+dg,h4{
+    color: #f5922c;
+   margin-top: 20px;
+    margin-left:auto;
+}

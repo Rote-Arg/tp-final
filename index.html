@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="fotorama/fotorama.css">
+  <script src="fotorama/fotorama.js"></script>
+
+
+  <title>Ruleta de Caramelos</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a id="logo" href="index.html"><img src="img/logo-1.png" onmouseover="this.src='img/logo-2.png'" onmouseout="this.src='img/logo-1.png'"></a>
+      <a href="#" class="menu-mobile">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <ul>
+
+        <li><a class="menu-elemento" href="#quienes-somos">Que es ruleta de caramelos?</a></li>
+        <li><a class="menu-elemento" href="#servicios">Sectores</a></li>
+        <li><a class="menu-elemento" href="#footer">Contacto</a></li>
+        <li><a class="menu-elemento" href="ventas.html">Compras</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+   <div class="fotorama" data-width="100%" data-max-width="100%">
+
+    <img src="img/banner-1.jpg" alt="banner home"/>
+    <img src="img/banner-2.jpg" alt="banner home"/>
+    <img src="img/banner-3.jpg" alt="banner home"/>
+  </div>
+  <article id="quienes-somos"><br /><br />
+    <img src="estudio1.jpg"  >
+  </article>
+  
+  <article ><br /><br />
+
+    <div class="hola">
+      <h1>Ruleta de caramelos</h1>
+
+      <p> <img src="img/123.png">El evento Ruleta de Caramelos de Buenos Aires tiene una superficie de más de 45.000 metros cuadrados y es el más concurrida en el mundo de habla hispana. Durante su semana de duración la visitan más de un millón de degustadores y más de doce mil profesionales de los dulces Argentinos.
+      Se realizarán actividades destinadas a consumidores y profesionales de la cadena de valor alimenticio.</p>
+
+      <p>El acto de inauguración de Ruleta de Caramlos se llevará a cabo el jueves 1 de julio a las 10:00 en el planetario de Palermo y alrededores. El discurso de apertura estará a cargo de nuestros conocidos y queridos personajes del evento.
+      El espectáculo de galaxia de caramelos será en el interior del planetario para la comodidad del público y de los organizadores del evento, y para prevenir accidentes en caso de lluvias inesperadas o cambios de clima.</p>
+      <p>En cada entrada hay cabinas de información que ayudan a los visitantes a guiarse y seguir el recorrido marcado a través de las actividades, ellos tienen la opción de seguir el camino guiado, o para los que quieran aventurarse solos, pueden buscar su propio rumbo.</p>
+       <p>El espectáculo de galaxia de caramelos será en el interior del planetario, ya que esa es la atracción principal, junto con el escenario donde estarán nuestros grandiosos amigos, y estará ubicado en chocos, la cual es la Segunda sección del evento.</p>
+       <p>Gracias por venir.</p>
+      <br>
+    </div>
+
+  </article>
+
+
+  <article id="servicios">
+   <h1>Sectores</h1>
+
+   <div id="dg"><img src="img/servicios/dg-2.jpg"><h4>Malvis</h4>
+    <p> Es la más importante de las tres por su posición inicial al comenzar el recorrido y por tener en su espacio las actividades más importantes. Allí se brindara orientación a los invitados para guiarlos a través de la experiencia según sus gustos y necesidades y se les otorgara también un número para participar en las rifas y competencias del evento a lo largo del recorrido. <br></p><a href="dg.html">VER MAS...</a></div>
+
+    <div id="ed"><img src="img/servicios/ed-2.png"><h4>Chocos</h4><p>Es una de las dos submarcas restantes después de malvís que ocupa el segundo lugar en el recorrido. Es la que nos sigue guiando a través de la gran aventura del mundo de ruleta de caramelos y la que nos va ubicando, a medida que se va acercando el momento, a nuestros lugares dentro del planetario para que todos podamos disfrutar de la función y podamos viajar juntos a la lejana “galaxia de caramelos” que forma parte de nuestro espectáculo principal, y en donde los invitados podrán ver el mundo desde los ojos del evento.</p><a href="ed.html">VER MAS...</a></div>
+
+    <div id="ftg"><img src="img/servicios/ftg-2.png"><h4>Gomis</h4><p> 
+    Es uno de los sectores para los más chicos, es la última sección del parque y en la que se despide a todos nuestros invitados, donde se otorgan los premios a los ganadores y se les brinda aliento a aquellos que quieran seguir participando del evento, o simplemente nos da una despedida amistosa al momento de dejar el parque, todo para que la experiencia tenga un lindo cierre y se convierta así en un recuerdo inolvidable y feliz para todos los que nos han visitado. </p><a href="ftg.html">VER MAS...</a></div>
+  </article>
+
+
+  <div> <footer id="footer">
+    <div id="footer-cont-izq">
+      <h2 >Dejá tu Consulta</h2>
+      <form id="form">
+        <p><label >Nombre<br><br>
+          <span><input type="text" name="your-name" value="" ></span> </label></p>
+          <p><label>Email<br><br>
+            <span ><input type="email" name="your-email" value="" ></span> </label></p>
+            <p><label>Mensaje<br><br>
+              <span><textarea name="your-message" cols="52" rows="10"></textarea></span> </label></p>
+              <p><input type="submit" value="Enviar" class="enviar-form"><span class="ajax-loader"></span><div></div>
+              </form>
+            </div>
+            <div id="foteer-cont-der"><p> En el planetario <br />
+              Av. Sarmiento s/n, 1425 CABA<br />
+              Buenos Aires - República Argentina<br />
+            Teléfono: 112233556565</p><br />
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.3631657659594!2d-58.413814485107714!3d-34.56967628046834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57475fd5245%3A0x5eefd3cd753143d7!2sPlanetario+Galileo+Galilei!5e0!3m2!1ses-419!2sar!4v1525222030290" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </footer>
+      </div>
+    </section>
+
+    <div id="redes"><br />NUESTRAS REDES! <br /><a href="#"><img  src="img/fb.png"></a><a href="#"><img src="img/ing.png"></a><a href="#"><img src="img/tw.png"></a></div>  
+
+  </body>
+
+  </html>

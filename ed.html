@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="fotorama/fotorama.css">
+    <script src="fotorama/fotorama.js"></script>
+
+
+    <title>SINERGIA</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a id="logo" href="index.html"><img src="img/logo-1.png" onmouseover="this.src='img/logo-2.png'" onmouseout="this.src='img/logo-1.png'"></a>
+            <a href="#" class="menu-mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul>
+
+                <li><a class="menu-elemento" href="index.html">QUIENES SOMOS</a></li>
+                <li><a class="menu-elemento" href="index.html">SERVICIOS</a></li>
+                <li><a class="menu-elemento" href="index.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="fotorama" data-width="100%" data-max-width="100%">
+
+            <img src="img/servicios/de-1.jpg" alt="banner home"/>
+            <img src="img/servicios/de-2.jpg" alt="banner home"/>
+            <img src="img/servicios/de-3.jpg" alt="banner home"/>
+        </div>
+        <div> <footer id="footer">
+            <div id="footer-cont-izq">
+                <h2 >Dejá tu Consulta</h2>
+                <form id="form">
+                    <p><label >Nombre<br><br>
+                        <span><input type="text" name="your-name" value="" size="50"></span> </label></p>
+                        <p><label>Email<br><br>
+                            <span ><input type="email" name="your-email" value="" size="50"></span> </label></p>
+                            <p><label>Mensaje<br><br>
+                                <span><textarea name="your-message" cols="52" rows="10"></textarea></span> </label></p>
+                                <p><input type="submit" value="Enviar" class="enviar-form"><span class="ajax-loader"></span><div></div>
+                                </form>
+                            </div>
+                            <div id="foteer-cont-der"><p> Lisandro Medina 1918 <br />
+                               Caseros (1842) <br />
+                               Buenos Aires - República Argentina<br />
+                           Teléfono: (5411) 4756 5765</p><br />
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.189953845087!2d-58.565663784601945!3d-34.599357880460595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb82f87a76b1d%3A0xff330c41583d40a1!2sLisandro+Medina+1918%2C+Caseros%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1507082698860"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                       </div>
+                   </footer>
+               </div>
+           </section>
+
+           <div id="redes"><br />NUESTRAS REDES! <br /><a href="#"><img  src="img/fb.png"></a><a href="#"><img src="img/ing.png"></a><a href="#"><img src="img/tw.png"></a></div>  
+
+       </body>
+
+       </html>
